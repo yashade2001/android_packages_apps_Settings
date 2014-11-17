@@ -41,4 +41,7 @@
     <string name="battery_percent">Battery percent</string>
     <string name="battery_hidden">Battery hidden</string>
 
+    <!-- Title for the option enabling sound on volume slide adjust. [CHAR LIMIT=30] -->
+    <string name="volume_adjust_sound_title">Volume slider sound</string>
+
 </resources>
