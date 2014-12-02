@@ -5,4 +5,11 @@
     <string name="mod_version">D.I.S.C.O. Version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Disable Search Bar in Recents Menu</string>
+    <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
+
+    <!-- Keywords -->
+    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
+
 </resources>
