@@ -1,5 +1,5 @@
 
-package com.android.settings.simpleaosp;
+package com.android.settings.disco;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
