@@ -21,5 +21,6 @@
     <string name="disco_preferencecategory_navbar">Navigation Bar</string>
     <string name="disco_navbar_height">Navigation Bar Height</string>
     <string name="disco_preferencecategory_volumerocker">Volume Rocker</string>
+    <string name="disco_prefscreen_volrocker_text">Volume Rocker Cursor Control</string>
 
 </resources>
