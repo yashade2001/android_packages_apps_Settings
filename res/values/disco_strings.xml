@@ -11,5 +11,16 @@
 
     <!-- Keywords -->
     <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
+    <string name="keywords_disco">disco extras</string>
+
+    <!-- DISCO Extras Menu  -->
+    <string name="header_category_disco">Project D.I.S.C.O. Extras</string>
+    <string name="disco_tweaks">D.I.S.C.O. Tweaks</string>
+    <string name="disco_preferencecategory_statusbar">Status Bar</string>
+    <string name="disco_preferencecategory_recents">Recents Menu</string>
+    <string name="disco_preferencecategory_navbar">Navigation Bar</string>
+    <string name="disco_navbar_height">Navigation Bar Height</string>
+    <string name="disco_preferencecategory_volumerocker">Volume Rocker</string>
+    <string name="disco_prefscreen_volrocker_text">Volume Rocker Cursor Control</string>
 
 </resources>

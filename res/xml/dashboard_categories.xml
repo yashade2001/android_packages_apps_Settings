@@ -71,6 +71,33 @@
 
     </dashboard-category>
 
+
+    <!-- Project DISCO Extras -->
+    <dashboard-category
+            android:id="@+id/disco_section"
+            android:title="@string/header_category_disco" >
+
+        <!-- DISCO Tweaks -->
+        <dashboard-tile
+                android:id="@+id/disco_extra_settings"
+                android:title="@string/disco_tweaks"
+                android:fragment="com.android.settings.disco.DiscoExtras"
+                android:icon="@drawable/ic_disco_extras"
+                />
+
+        <!-- SuperSU -->
+        <dashboard-tile
+                android:id="@+id/supersu_settings"
+                android:icon="@drawable/ic_settings_supersu"
+                android:title="@string/supersu_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="eu.chainfire.supersu"
+                    android:targetClass="eu.chainfire.supersu.MainActivity" />
+        </dashboard-tile>
+    
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
@@ -232,17 +259,6 @@
                 android:fragment="com.android.settings.DevelopmentSettings"
                 android:icon="@drawable/ic_settings_development"
                 />
-
-        <!-- SuperSU -->
-        <dashboard-tile
-                android:id="@+id/supersu_settings"
-                android:icon="@drawable/ic_settings_supersu"
-                android:title="@string/supersu_title">
-                <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="eu.chainfire.supersu"
-                    android:targetClass="eu.chainfire.supersu.MainActivity" />
-        </dashboard-tile>
 
         <!-- About Device -->
         <dashboard-tile
