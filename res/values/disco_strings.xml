@@ -25,6 +25,7 @@
 
     <!-- Expanded Statusbar Weather -->
     <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+    <string name="status_bar_show_weather_summary">Show the weather in the status bar header...
+NOTE: Configure cLock widget and reboot first! You can remove cLock widget from your homescreen after configuring cLock widget and rebooting.</string>
 
 </resources>
