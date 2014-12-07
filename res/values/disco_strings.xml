@@ -14,7 +14,7 @@
     <string name="keywords_disco">disco extras</string>
 
     <!-- DISCO Extras Menu  -->
-    <string name="header_category_disco">Customization</string>
+    <string name="header_category_disco">Extras</string>
     <string name="disco_tweaks">D.I.S.C.O. Tweaks</string>
     <string name="disco_preferencecategory_statusbar">Status Bar and QS</string>
     <string name="disco_preferencecategory_recents">Recents Menu</string>
@@ -22,8 +22,6 @@
     <string name="disco_navbar_height">Navigation Bar Height</string>
     <string name="disco_preferencecategory_volumerocker">Volume Rocker</string>
     <string name="disco_prefscreen_volrocker_text">Volume Rocker Cursor Control</string>
-
-    <!-- Expanded Statusbar Weather -->
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header...
 NOTE: Configure cLock widget and reboot first! You can remove cLock widget from your homescreen after configuring cLock widget and rebooting.</string>
