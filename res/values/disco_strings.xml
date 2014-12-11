@@ -26,4 +26,8 @@
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header...
 NOTE: Configure cLock widget and reboot first! You can remove cLock widget from your homescreen after configuring cLock widget and rebooting.</string>
 
+	    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
+    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
+
 </resources>

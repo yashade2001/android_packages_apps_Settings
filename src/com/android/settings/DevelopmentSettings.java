@@ -165,6 +165,11 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private static String DEFAULT_LOG_RING_BUFFER_SIZE_IN_BYTES = "262144"; // 256K
 
+    /**
+     * Whether to show unnacounted and over-counted battery stats.  Default is false.
+     */
+    public static final String SHOW_UNAC_AND_OVERCOUNTED_STATS = "show_unac_and_overcounted_stats";
+
     private IWindowManager mWindowManager;
     private IBackupManager mBackupManager;
     private DevicePolicyManager mDpm;
@@ -219,6 +224,8 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private ListPreference mOverlayDisplayDevices;
     private ListPreference mOpenGLTraces;
 
+    private SwitchPreference mShowUnacAndOvercounted;
+
     private ListPreference mSimulateColorSpace;
 
     private CheckBoxPreference mUseNuplayer;
@@ -264,6 +271,8 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         }
 
         addPreferencesFromResource(R.xml.development_prefs);
+
+	mShowUnacAndOvercounted = findAndInitSwitchPref(SHOW_UNAC_AND_OVERCOUNTED_STATS);
 
         final PreferenceGroup debugDebuggingCategory = (PreferenceGroup)
                 findPreference(DEBUG_DEBUGGING_CATEGORY_KEY);
@@ -570,6 +579,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateAllOptions();
         mDontPokeProperties = false;
         pokeSystemProperties();
+	mShowUnacAndOvercounted.setChecked(false);
     }
 
     private void updateHdcpValues() {
