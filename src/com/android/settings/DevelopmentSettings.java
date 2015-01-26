@@ -176,18 +176,10 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private boolean mHaveDebugSettings;
     private boolean mDontPokeProperties;
 
-<<<<<<< HEAD
-    private CheckBoxPreference mEnableAdb;
-    private Preference mClearAdbKeys;
-    private CheckBoxPreference mEnableTerminal;
-=======
     private SwitchPreference mEnableAdb;
-    private SwitchPreference mAdbNotify;
     private Preference mClearAdbKeys;
     private SwitchPreference mEnableTerminal;
-    private Preference mRestartSystemUI;
 
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
     private Preference mBugreport;
     private SwitchPreference mBugreportInPower;
     private SwitchPreference mKeepScreenOn;
@@ -236,15 +228,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private ListPreference mAppProcessLimit;
 
-<<<<<<< HEAD
-    private CheckBoxPreference mShowAllANRs;
-=======
     private SwitchPreference mShowAllANRs;
-    private SwitchPreference mKillAppLongpressBack;
-    private AnimationScalePreference mKillAppLongpressDelay;
-
-    private SwitchPreference mAdvancedReboot;
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
 
     private PreferenceScreen mProcessStats;
     private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
@@ -285,13 +269,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         final PreferenceGroup debugDebuggingCategory = (PreferenceGroup)
                 findPreference(DEBUG_DEBUGGING_CATEGORY_KEY);
 
-<<<<<<< HEAD
-        mEnableAdb = findAndInitCheckboxPref(ENABLE_ADB);
-=======
         mEnableAdb = findAndInitSwitchPref(ENABLE_ADB);
-        mAdbNotify = findAndInitSwitchPref(ADB_NOTIFY);
-
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
         mClearAdbKeys = findPreference(CLEAR_ADB_KEYS);
         if (!SystemProperties.getBoolean("ro.adb.secure", false)) {
             if (debugDebuggingCategory != null) {
@@ -318,10 +296,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mDebugViewAttributes = findAndInitSwitchPref(DEBUG_VIEW_ATTRIBUTES);
         mPassword = (PreferenceScreen) findPreference(LOCAL_BACKUP_PASSWORD);
         mAllPrefs.add(mPassword);
-<<<<<<< HEAD
-=======
-        mAdvancedReboot = findAndInitSwitchPref(ADVANCED_REBOOT_KEY);
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
 
 
         if (!android.os.Process.myUserHandle().equals(UserHandle.OWNER)) {
@@ -372,15 +346,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mUseNuplayer = findAndInitSwitchPref(USE_NUPLAYER_KEY);
         mUSBAudio = findAndInitSwitchPref(USB_AUDIO_KEY);
 
-<<<<<<< HEAD
-        mImmediatelyDestroyActivities = (CheckBoxPreference) findPreference(
-=======
-        mWindowAnimationScale = findAndInitAnimationScalePreference(WINDOW_ANIMATION_SCALE_KEY);
-        mTransitionAnimationScale = findAndInitAnimationScalePreference(TRANSITION_ANIMATION_SCALE_KEY);
-        mAnimatorDurationScale = findAndInitAnimationScalePreference(ANIMATOR_DURATION_SCALE_KEY);
-
         mImmediatelyDestroyActivities = (SwitchPreference) findPreference(
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
                 IMMEDIATELY_DESTROY_ACTIVITIES_KEY);
         mAllPrefs.add(mImmediatelyDestroyActivities);
         mResetSpPrefs.add(mImmediatelyDestroyActivities);
@@ -390,13 +356,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mShowAllANRs = (SwitchPreference) findPreference(
                 SHOW_ALL_ANRS_KEY);
         mAllPrefs.add(mShowAllANRs);
-<<<<<<< HEAD
-        mResetCbPrefs.add(mShowAllANRs);
-=======
         mResetSpPrefs.add(mShowAllANRs);
-        mKillAppLongpressBack = findAndInitSwitchPref(KILL_APP_LONGPRESS_BACK);
-        mKillAppLongpressDelay = findAndInitAnimationScalePreference(LONG_PRESS_KILL_DELAY);
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
 
         Preference hdcpChecking = findPreference(HDCP_CHECKING_KEY);
         if (hdcpChecking != null) {
@@ -422,20 +382,8 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         }
     }
 
-<<<<<<< HEAD
-    private CheckBoxPreference findAndInitCheckboxPref(String key) {
-        CheckBoxPreference pref = (CheckBoxPreference) findPreference(key);
-=======
-    private AnimationScalePreference findAndInitAnimationScalePreference(String key) {
-        AnimationScalePreference pref = (AnimationScalePreference) findPreference(key);
-        pref.setOnPreferenceChangeListener(this);
-        pref.setOnPreferenceClickListener(this);
-        mAllPrefs.add(pref);
-        return pref;
-    }
     private SwitchPreference findAndInitSwitchPref(String key) {
         SwitchPreference pref = (SwitchPreference) findPreference(key);
->>>>>>> eff4949... Settings: Developer Settings - We want consistence...change from CheckBox…
         if (pref == null) {
             throw new IllegalArgumentException("Cannot find preference with key = " + key);
         }
