@@ -31,5 +31,7 @@
 
     <!-- Misc -->
     <string name="display_rotation_title">Rotation</string>
+    <string name="none_is_silent_title">None is Silent mode</string>
+    <string name="none_is_silent_summary">Silent mode always sounds alarms</string>
 
 </resources>
