@@ -59,7 +59,7 @@ public class QSTileHolder {
                 stringId = R.string.bluetooth_settings_title;
                 break;
             case QSConstants.TILE_INVERSION:
-                resourceName = "ic_qs_inversion_on";
+                resourceName = "ic_invert_colors_disable";
                 stringId = R.string.accessibility_display_inversion_preference_title;
                 break;
             case QSConstants.TILE_CELLULAR:
@@ -67,15 +67,15 @@ public class QSTileHolder {
                 stringId = R.string.cellular_data_title;
                 break;
             case QSConstants.TILE_AIRPLANE:
-                resourceName = "ic_qs_airplane_on";
+                resourceName = "ic_signal_airplane_disable";
                 stringId = R.string.airplane_mode;
                 break;
             case QSConstants.TILE_ROTATION:
-                resourceName = "ic_qs_rotation_locked";
+                resourceName = "ic_portrait_to_auto_rotate";
                 stringId = R.string.display_rotation_title;
                 break;
             case QSConstants.TILE_FLASHLIGHT:
-                resourceName = "ic_qs_flashlight_on";
+                resourceName = "ic_signal_flashlight_disable";
                 stringId = R.string.power_flashlight;
                 break;
             case QSConstants.TILE_LOCATION:
@@ -87,9 +87,10 @@ public class QSTileHolder {
                 stringId = R.string.cast_screen;
                 break;
             case QSConstants.TILE_HOTSPOT:
-                resourceName = "ic_qs_hotspot_on";
+                resourceName = "ic_hotspot_disable";
                 stringId = R.string.hotspot;
                 break;
+
             default:
                 return null;
         }
