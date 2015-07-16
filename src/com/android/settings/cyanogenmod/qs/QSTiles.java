@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
-import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -212,8 +211,6 @@ public class QSTiles extends Fragment implements
         if (item.name != null) {
             ImageView icon = (ImageView) qsTile.findViewById(android.R.id.icon);
             Drawable d = Utils.getNamedDrawable(mSystemUiContext, item.resourceName);
-            d.setColorFilter(getResources().getColor(R.color.qs_tile_tint_color),
-                    PorterDuff.Mode.SRC_ATOP);
             icon.setImageDrawable(d);
             TextView title = (TextView) qsTile.findViewById(android.R.id.title);
             title.setText(item.name);

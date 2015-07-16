@@ -30,7 +30,8 @@
         <ImageView
             android:id="@android:id/icon"
             android:layout_width="24dp"
-            android:layout_height="24dp"/>
+            android:layout_height="24dp"
+            android:tint="#FF009587"/>
 
         <TextView
             android:id="@android:id/title"
