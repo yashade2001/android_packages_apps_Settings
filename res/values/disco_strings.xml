@@ -2,11 +2,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- ProjectDisco version -->
-    <string name="mod_version">ProjectDisco Version</string>
+    <string name="mod_version">ProjectDisco version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Show/Hide Search Bar -->
-    <string name="recents_show_searchbar">Disable Search Bar in Recents Menu</string>
+    <string name="recents_show_searchbar">Disable search bar in recents menu</string>
     <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
 
     <!-- Keywords -->
