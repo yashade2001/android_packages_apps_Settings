@@ -27,6 +27,7 @@ OnPreferenceChangeListener {
 
     String batteryStyleStatus = null;
 
+public void someVoid() {
 
 	if ((batteryStyle == 0) && (batteryPercentage == 0)) {
 			batteryStyleStatus = "bar";
@@ -40,8 +41,10 @@ OnPreferenceChangeListener {
 	} else ((batteryStyle == 4) && (batteryPercentage == 0)) {
 			batteryStyleStatus = "hidden";
 	}
+}
 		
-	
+someVoid();	
+
 private void setBatteryStyle (String theStyle) {
 
       if (theStyle == "battery_bar") {
