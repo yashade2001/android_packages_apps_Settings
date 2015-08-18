@@ -12,8 +12,8 @@
     <!-- Keywords -->
     <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
 
-    <!-- Notification drawer -->
-    <string name="notification_drawer_title">Notification drawer</string>
+    <!-- Notification drawer and QS -->
+    <string name="notification_drawer_title">Notification drawer and quick settings</string>
     <string name="qs_category_title">Quick Settings</string>
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
@@ -43,5 +43,38 @@
 
     <!-- Title for the option enabling sound on volume slide adjust. [CHAR LIMIT=30] -->
     <string name="volume_adjust_sound_title">Volume slider sound</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_title">Navigation bar</string>
+
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Navigation bar height</string>
+    <string name="navigation_bar_height_56">56dp</string>
+    <string name="navigation_bar_height_54">54dp</string>
+    <string name="navigation_bar_height_52">52dp</string>
+    <string name="navigation_bar_height_50">50dp</string>
+    <string name="navigation_bar_height_48">48dp (default)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
+    <string name="navigation_bar_height_20">20dp</string>
+    <string name="navigation_bar_height_0">0dp (hide)</string>
+
+    <!--  Volume rocker -->
+    <string name="volume_rocker_screen_title">Volume rocker</string>
+
+    <!--- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- ProjectDisco Tweaks -->
+    <string name="projectdisco_tweaks_string">ProjectDisco Tweaks</string>
+    <string name="recents_panel_settings">Recents Panel</string>
+    <string name="sound_settings">Sound</string>
 
 </resources>
