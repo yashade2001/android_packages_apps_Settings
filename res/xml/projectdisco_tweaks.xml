@@ -34,6 +34,11 @@
 	android:title="@string/volume_rocker_screen_title" />
 
      <PreferenceScreen
+	android:key="status_bar_settings"
+	android:fragment="com.android.settings.disco.StatusBarSettings"
+	android:title="@string/status_bar_title" />
+
+     <PreferenceScreen
         android:id="@+id/notification_drawer_settings"
         android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
         android:title="@string/notification_drawer_title" />
