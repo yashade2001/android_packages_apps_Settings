@@ -39,8 +39,8 @@
         android:title="@string/notification_drawer_title" />
 
      <PreferenceScreen
-        android:id="@+id/sound_settings"
+        android:id="@+id/pd_sound_settings"
         android:fragment="com.android.settings.disco.SoundSettings"
-        android:title="@string/sound_settings" />
+        android:title="@string/pd_sound_settings" />
 
 </PreferenceScreen>

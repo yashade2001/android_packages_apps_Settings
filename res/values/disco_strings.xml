@@ -75,6 +75,6 @@
     <!-- ProjectDisco Tweaks -->
     <string name="projectdisco_tweaks_string">ProjectDisco Tweaks</string>
     <string name="recents_panel_settings">Recents Panel</string>
-    <string name="sound_settings">Sound</string>
+    <string name="pd_sound_settings">Sound</string>
 
 </resources>
