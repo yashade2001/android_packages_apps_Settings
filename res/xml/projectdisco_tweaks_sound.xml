@@ -23,12 +23,4 @@
         android:key="none_is_silent"
         android:title="@string/none_is_silent_title"
         android:summary="@string/none_is_silent_summary" />
-
-    <!-- Volume adjust sound -->
-    <SwitchPreference
-            android:key="volume_adjust_sound"
-            android:title="@string/volume_adjust_sound_title"
-            android:switchTextOff=""
-            android:switchTextOn=""
-            android:persistent="false" />
 </PreferenceScreen>
