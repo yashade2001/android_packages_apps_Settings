@@ -74,4 +74,7 @@
     <string name="recents_panel_settings">Recents Panel</string>
     <string name="pd_sound_settings">Sound</string>
 
+    <!-- Adaptive brightness toggle -->
+    <string name="adaptive_brightness_toggle">Show adaptive brightness toggle near slider</string>
+
 </resources>
