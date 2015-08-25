@@ -14,7 +14,7 @@
 
     <!-- Notification drawer and QS -->
     <string name="notification_drawer_title">Notification drawer and quick settings</string>
-    <string name="qs_category_title">Quick Settings</string>
+    <string name="qs_category_title">Quick settings</string>
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
     <string name="cast_screen">Cast screen</string>
@@ -70,11 +70,11 @@
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
     <!-- ProjectDisco Tweaks -->
-    <string name="projectdisco_tweaks_string">ProjectDisco Tweaks</string>
-    <string name="recents_panel_settings">Recents Panel</string>
+    <string name="projectdisco_tweaks_string">ProjectDisco tweaks</string>
+    <string name="recents_panel_settings">Recents panel</string>
     <string name="pd_sound_settings">Sound</string>
 
     <!-- Adaptive brightness toggle -->
-    <string name="adaptive_brightness_toggle">Show adaptive brightness toggle near slider</string>
+    <string name="adaptive_brightness_toggle">Show adaptive brightness toggle</string>
 
 </resources>
