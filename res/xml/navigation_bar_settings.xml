@@ -4,6 +4,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navigation_bar_title">
 
+    <SwitchPreference 
+	android:key="navbar_immersive_switchpreference"
+	android:title="@string/navigation_bar_style_summary_immersive" />
+
     <ListPreference
         android:key="navigation_bar_height"
         android:dialogTitle="@string/navigation_bar_height"

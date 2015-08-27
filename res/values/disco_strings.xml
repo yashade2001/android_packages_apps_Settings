@@ -73,6 +73,7 @@
     <string name="projectdisco_tweaks_string">ProjectDisco tweaks</string>
     <string name="recents_panel_settings">Recents panel</string>
     <string name="pd_sound_settings">Sound</string>
+    <string name="statusbar_settings_pd">Status bar</string>
 
     <!-- Adaptive brightness toggle -->
     <string name="adaptive_brightness_toggle">Show adaptive brightness toggle</string>
